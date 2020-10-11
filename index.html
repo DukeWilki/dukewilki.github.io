@@ -4,47 +4,126 @@
 <html>
 <head>
     <meta charset="UTF-8" />
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="assets/style.css">
     <title>Luke Wilkinson</title>
-    <link href='https://fonts.googleapis.com/css?family=Spicy Rice' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Spicy Rice&Playfair+Display+SC' rel='stylesheet'>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
 <style>
     
-body {
-    font-family: 'Spicy Rice';font-size: 18px;
-    /* color: rgb(69, 52, 165); */
-    background: linear-gradient(90deg, rgb(27, 11, 114) 0%, #ffffff 100%);
-}
+
 </style>
 </head>
 <body>
+    
     <div id="wrapper">
-    <div class="header">
-        <h1>Luke Wilkinson</h1>
+
+        <!-- <section class="hero">
+            <img class= "imgbanner" src="https://media-exp1.licdn.com/dms/image/C5616AQG6RTrgTUeJMA/profile-displaybackgroundimage-shrink_350_1400/0?e=1603324800&v=beta&t=6Y9_PgMJqS2o0w7Isgcn4Nv6mYQu0UXhL2rUaJaOHXU" alt="Sydney Harbour Skyline">
+        </section> -->
+        <img class= "imgface" src="assets/0.jpg">
+        <div class="header">
+
+            <h1>Luke Wilkinson</h1>
+        </div>
+
+        <p>Business Analyst, Content Creator, Developer</p>
+
+        <div class="contacts">
+            <ul><h2>Contacts</h2></ul>
+            <li>Email | luke.wilkinson.nz@gmail.com</li>
+            <li>GitHub | <a href="https://github.com/DukeWilki">DukeWilki</a></li>
+            <li>LinkedIn | <a href="https://www.linkedin.com/in/lukewilkinsonnz/">Luke Wilkinson MBA</a></li>
+        </div>
+
+
+
+
+
+
+        <div class="container projects">
+            <div class="row">
+            <h2>Projects</h2>
+            <div class="row">
+                <div class="col-4">
+            <a href="https://www.cultureshock-adventure.com"><img class= "btnpanel" src="https://www.cultureshock-adventure.com/wp-content/uploads/2018/08/LOGO-II-MED.png" alt="Cultureshock Adventure"></a>
+                </div>
+                <div class="col-8">
+            <p>Travel/culture blog focusing on what makes the world and the people on it so fascinating. Content creation in WordPress content mananagement system.</p>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-4">
+            <a href="https://dukewilki.github.io/weather-buddy"><img class= "btnpanel" src="assets/weatherbuddy.jpg" alt="Weather Buddy"></a>
+                </div>
+                <div class="col-8">
+            <p>Engaging weather app designed for travellers and those with wunderlust. Makes use of Open Weather Map API.</p>
+                </div>  
+            </div>
+
+            <div class="row">
+                <div class="col-4">
+            <a href="https://dukewilki.github.io/retro-gamer-quiz"><img class= "btnpanel" src="assets/retro.jpg" alt="Retro Gamer Quiz"></a>
+                </div>
+                <div class="col-8">
+            <p>Test your geekiness with this fun quiz about the video games of the 1900s. Use of retro designs and javascript</p>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-4">
+            <a href="https://annisapf.github.io/SubHub-Food-Finder/"><img class= "btnpanel" src="assets/subhub.jpg" alt="SubHub"></a>
+                </div>
+                <div class="col-8">
+            <p>Find local restaurants near you! Group project utilising zomato and google APIs</p>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-4">
+            <a href=""><img class= "btnpanel" src="paxvax.png" alt="PaxVax"></a>
+                </div>
+                <div class="col-8">
+            <p>Coming Soon: Keep track of the vaccinations you need while for your travels.</p>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-4">
+            <a href=""><img class= "btnpanel" src="team8.png" alt="team8"></a>
+                </div>
+                <div class="col-8">
+            <p>Coming Soon: Team mananagement appliction for local sports teams, featuring financial, regulative and coaching tools.</p>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-4">
+            <a href=""><img class= "btnpanel" src="assets/botany.jpg" alt="Botany Bay App"></a>
+                </div>
+                <div class="col-8">
+            <p>Coming Soon: The app to help you enjoy your bay, with weather forecasts, fishing reports, water conditions, shark sightings and information of local sports teams</p>
+                </div>
+            </div>
+        </div>
+
+            <a href=""><img class= "btnbanner" src="githubportfolio.JPG" alt="GitHub Portfolio"></a>
+        </section>
+
+        <section class="social">
+            <h2>Social Media</h2>
+            <!-- <a href="https://www.cultureshock-adventure.com"><img class= "btnpanel" src="https://www.cultureshock-adventure.com/wp-content/uploads/2018/08/LOGO-II-MED.png" alt="Cultureshock Adventure"></a>
+            <a href=""><img class= "btnpanel" src="assets/weatherbuddy.jpg" alt="Weather Buddy"></a>
+            <a href=""><img class= "btnpanel" src="assets/retro.jpg" alt="Retro Gamer Quiz"></a>
+            <a href=""><img class= "btnpanel" src="paxvax.png" alt="PaxVax"></a>
+            <a href=""><img class= "btnpanel" src="team8.png" alt="team8"></a>
+            <a href=""><img class= "btnbanner" src="githubportfolio.JPG" alt="GitHub Portfolio"></a> -->
+        </section>
+
+        <section class="footer">
+            <img class= "imgbanner" src="background_sm.JPG" alt="Luke Wilkinson">
+        </section>
+
     </div>
-
-    <p>Business Analyst, Content Creator, Developer and Dragon Boat Racer</p>
-
-<!-- <div class="image">
-    <img src="https://media-exp1.licdn.com/dms/image/C5103AQEsH1qw-NeroQ/profile-displayphoto-shrink_400_400/0?e=1603324800&v=beta&t=4_QDymxscD6TAeQJtJ_GPXTC5tGNyHcWV8xRDZM051Y" alt="profile photo">
-</div> -->
-
-<div class="contacts">
-    <ul><h2>Contacts</h2></ul>
-    <li>Email | luke.wilkinson.nz@gmail.com</li>
-    <li>GitHub | <a href="https://github.com/DukeWilki">DukeWilki</a></li>
-    <li>LinkedIn | <a href="https://www.linkedin.com/in/lukewilkinsonnz/">Luke Wilkinson MBA</a></li>
-</div>
-
-<section class="projects">
-    <h2>Passion Projects</h2>
-    <a href="https://www.cultureshock-adventure.com"><img class= "imgpanel" src="https://www.cultureshock-adventure.com/wp-content/uploads/2018/08/LOGO-II-MED.png" alt="Cultureshock Adventure"></a>
-    <a href=""><img class= "imgpanel" src="paxvax.png" alt="PaxVax"></a>
-    <a href=""><img class= "imgpanel" src="team8.png" alt="team8"></a>
-    <a href=""><img class= "imgbanner" src="githubportfolio.JPG" alt="GitHub Portfolio"></a>
-</section>
-
-<section class="footer">
-    <img class= "imgfooter" src="background_sm.JPG" alt="Luke Wilkinson">
-</section>
-
-</div>
+<!-- </body> -->
