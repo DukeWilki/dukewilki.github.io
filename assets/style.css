@@ -85,6 +85,11 @@ p {
   width: 170px;
 }
 
+.sample {
+    max-width: 500px;
+    margin: 10px 40px 50px 40px;
+}
+
 .btnbanner {
   border: 1px solid black;
   box-shadow: 2px 4px black;
