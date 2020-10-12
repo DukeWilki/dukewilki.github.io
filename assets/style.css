@@ -4,6 +4,12 @@ body {
   background: linear-gradient(90deg, rgb(27, 11, 114) 0%, #ffffff 100%);
 }
 
+.card {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+}
+
 #wrapper {
   width: 580px;
   margin: auto;
