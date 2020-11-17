@@ -1,140 +1,270 @@
-
-
 <!DOCTYPE html>
 <html>
-<head>
+  <head>
     <meta charset="UTF-8" />
-    <link rel="stylesheet" href="assets/style.css">
+    <link rel="stylesheet" href="assets/style.css" />
     <title>Luke Wilkinson</title>
-    <link href='https://fonts.googleapis.com/css?family=Spicy Rice&Playfair+Display+SC' rel='stylesheet'>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
-</head>
-<body>
-    
+    <link
+      href="https://fonts.googleapis.com/css?family=Spicy Rice&Playfair+Display+SC"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+      integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div
+      class="card mx-auto"
+      style="max-width: 600px; border: none; position: relative"
+    >
+      <img
+        class="card-img-top imgbanner"
+        src="assets/sydney.JPG"
+        alt="Sydney Harbour Skyline"
+      />
+      <img class="imgface" src="assets/0.jpg" />
 
-    <div class="card mx-auto" style="max-width: 600px; border: none; position: relative;">
-        <img class= "card-img-top imgbanner" src="assets/sydney.JPG" alt="Sydney Harbour Skyline">
-        <img class= "imgface" src="assets/0.jpg" >
-        
-        <div class="header">
-            <h1 style="text-align: center;">Luke Wilkinson</h1>
+      <div class="header">
+        <h1 style="text-align: center">Luke Wilkinson</h1>
+      </div>
 
+      <p style="text-align: center">
+        Business Analyst, Content Creator, Developer
+      </p>
+      <p style="text-align: center">
+        <a href="assets/LukeWilkinson2020.pdf" download
+          >Download Curriculum Vitae</a
+        >
+      </p>
+      <p style="text-align: center">
+        <a href="#contacts">Contacts</a> ~
+        <a href="#portfolios">Portfolios</a> ~
+        <a href="#projects">Projects</a> ~
+        <a href="#socialmedia">Managed Social Media</a>
+      </p>
+
+      <div class="container contacts">
+        <a name="contacts"></a>
+        <h2 style="text-align: center">Contacts</h2>
+        <div class="row">
+          <p class="ctc" style="text-align: center">
+            <a href="mailto:someone@example.com">luke.wilkinson.nz@gmail.com</a>
+            <br />
+            0404 974 847<br />
+            Based in Botany NSW, Australia
+          </p>
+        </div>
+      </div>
+
+      <div class="container contacts">
+        <a name="portfolios"></a>
+        <h2 style="text-align: center">Portfolios</h2>
+        <div class="row">
+          <div class="col">
+            <a
+              class="foliopanel"
+              href="https://www.linkedin.com/in/lukewilkinsonnz/"
+            >
+              <img
+                class="folioimage"
+                src="assets/Linkedin2.jpg"
+                alt="LinkedIn"
+              />
+            </a>
+          </div>
+          <div class="col">
+            <a class="foliopanel" href="https://github.com/DukeWilki">
+              <img
+                class="folioimage"
+                src="assets/githubportfolio.JPG"
+                alt="GitHub"
+              />
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="container projects">
+        <a name="projects"></a>
+        <h2 style="text-align: center">Projects</h2>
+        <p style="text-align: center">
+          <a href="#eatdaburger">Eat-Da-Burger</a> ~
+          <a href="#weatherbuddy">Weather Buddy</a> ~
+          <a href="#retro">Retro Gamer Quiz</a> ~ <a href="#subhub">SubHub</a> ~
+          <a href="#paxvax">PaxVax</a> ~ <a href="#team">Team8</a> ~
+          <a href="#cultureshock">Cultureshock Adventure</a>
+        </p>
+
+        <div class="row">
+          <a name="eatdaburger"></a>
+          <div class="col-4">
+            <a href="https://immense-falls-61069.herokuapp.com/">
+              <img
+                class="btnpanel"
+                src="assets/eat-da-burger.JPG"
+                alt="Eat-Da-Burger"
+              />
+            </a>
+          </div>
+          <div class="col-8">
+            <p>
+              Eat-Da-Burger is a casual style bucket-list app designed for eating burgers. Makes use of mySQL databases and MVC.
+              <a href="https://github.com/DukeWilki/eat-da-burger"
+                >Repository available for browsing.</a
+              >
+            </p>
+          </div>
+        </div>
+        <div class="row">
+          <img
+            class="sample"
+            src="assets/screen-burger.JPG"
+            alt="Sample of Eat-Da-Burger"
+          />
         </div>
 
-        <p style="text-align: center;">Business Analyst, Content Creator, Developer</p>
-        <p style="text-align: center;"><a href="assets/LukeWilkinson2020.pdf" download>Download Curriculum Vitae</a></p>
-        <p style="text-align: center;"><a href="#contacts">Contacts</a> ~ <a href="#portfolios">Portfolios</a> ~ <a href="#projects">Projects</a> ~ <a href="#socialmedia">Managed Social Media</a></p>
-
-        <div class="container contacts">
-            <a name="contacts"></a>
-            <h2 style="text-align: center;">Contacts</h2>
-            <div class="row">
-                <p class="ctc" style="text-align: center;">
-                            <a href="mailto:someone@example.com">luke.wilkinson.nz@gmail.com</a> <br>
-                            0404 974 847<br>
-                            Based in Botany NSW, Australia
-                </p>
-            </div>
+        <div class="row">
+          <a name="weatherbuddy"></a>
+          <div class="col-4">
+            <a href="https://dukewilki.github.io/weather-buddy">
+              <img
+                class="btnpanel"
+                src="assets/weatherbuddy.jpg"
+                alt="Weather Buddy"
+              />
+            </a>
+          </div>
+          <div class="col-8">
+            <p>
+              Engaging weather app designed for travellers and those with
+              wunderlust. Makes use of Open Weather Map API.
+              <a href="https://github.com/DukeWilki/weather-buddy"
+                >Repository available for browsing.</a
+              >
+            </p>
+          </div>
         </div>
-        
-        <div class="container contacts">
-            <a name="portfolios"></a>
-            <h2 style="text-align: center;">Portfolios</h2>
-            <div class="row">
-                <div class="col">
-                    <a class="foliopanel" href="https://www.linkedin.com/in/lukewilkinsonnz/">
-                        <img class="folioimage" src="assets/Linkedin2.jpg" alt="LinkedIn">
-                    </a>
-                </div>
-                <div class="col">
-                    <a class="foliopanel" href="https://github.com/DukeWilki">
-                        <img class="folioimage" src="assets/githubportfolio.JPG" alt="GitHub">
-                    </a>
-                </div>
-            </div>
+        <div class="row">
+          <img
+            class="sample"
+            src="assets/screen-weather.JPG"
+            alt="Sample of Weather Buddy"
+          />
         </div>
 
+        <div class="row">
+          <a name="retro"></a>
+          <div class="col-4">
+            <a href="https://dukewilki.github.io/retro-gamer-quiz">
+              <img
+                class="btnpanel"
+                src="assets/retro.jpg"
+                alt="Retro Gamer Quiz"
+              />
+            </a>
+          </div>
+          <div class="col-8">
+            <p>
+              Test your geekiness with this fun quiz about the video games of
+              the 1900s. Use of retro designs and javascript.
+              <a href="https://github.com/DukeWilki/retro-gamer-quiz"
+                >Repository available for browsing.</a
+              >
+            </p>
+          </div>
+        </div>
+        <div class="row">
+          <img
+            class="sample"
+            src="assets/screen-quiz.JPG"
+            alt="Sample of Retro Gamer Quiz"
+          />
+        </div>
 
-        <div class="container projects">
-            <a name="projects"></a>
-            <h2 style="text-align: center;">Projects</h2>
-            <p style="text-align: center;"><a href="#weatherbuddy">Weather Buddy</a> ~ <a href="#retro">Retro Gamer Quiz</a> ~ <a href="#subhub">SubHub</a> ~ <a href="#paxvax">PaxVax</a> ~ <a href="#team">Team8</a> ~ <a href="#cultureshock">Cultureshock Adventure</a></p>
+        <div class="row">
+          <a name="subhub"></a>
+          <div class="col-4">
+            <a href="https://annisapf.github.io/SubHub-Food-Finder/">
+              <img class="btnpanel" src="assets/subhub.jpg" alt="SubHub" />
+            </a>
+          </div>
+          <div class="col-8">
+            <p>
+              Find local restaurants near you! Group project utilising zomato
+              and google APIs.
+              <a href="https://github.com/annisapf/SubHub-Food-Finder"
+                >Repository available for browsing.</a
+              >
+            </p>
+          </div>
+        </div>
+        <div class="row">
+          <img
+            class="sample"
+            src="assets/screen-subhub.JPG"
+            alt="Sample of SubHub"
+          />
+        </div>
 
-
-            <div class="row">
-                <a name="weatherbuddy"></a>
-                <div class="col-4">
-                    <a href="https://dukewilki.github.io/weather-buddy">
-                        <img class= "btnpanel" src="assets/weatherbuddy.jpg" alt="Weather Buddy">
-
-                    </a>
-                </div>
-                <div class="col-8">
-                    <p>Engaging weather app designed for travellers and those with wunderlust. Makes use of Open Weather Map API. <a href="https://github.com/DukeWilki/weather-buddy">Repository available for browsing.</a></p>
-                </div>  
-            </div>
-            <div class="row">
-                <img class= "sample" src="assets/screen-weather.JPG" alt="Sample of Weather Buddy">
-            </div>
-            <div class="row">
-                <a name="retro"></a>
-                <div class="col-4">
-                    <a href="https://dukewilki.github.io/retro-gamer-quiz">
-                        <img class= "btnpanel" src="assets/retro.jpg" alt="Retro Gamer Quiz">
-                    </a>
-                </div>
-                <div class="col-8">
-                    <p>Test your geekiness with this fun quiz about the video games of the 1900s. Use of retro designs and javascript. <a href="https://github.com/DukeWilki/retro-gamer-quiz">Repository available for browsing.</a></p>
-                </div>
-            </div>
-            <div class="row">
-                <img class= "sample" src="assets/screen-quiz.JPG" alt="Sample of Retro Gamer Quiz">
-            </div>
-            <div class="row">
-                <a name="subhub"></a>
-                <div class="col-4">
-                    <a href="https://annisapf.github.io/SubHub-Food-Finder/">
-                        <img class= "btnpanel" src="assets/subhub.jpg" alt="SubHub">
-                    </a>
-                </div>
-                <div class="col-8">
-                    <p>Find local restaurants near you! Group project utilising zomato and google APIs.  <a href="https://github.com/annisapf/SubHub-Food-Finder">Repository available for browsing.</a></p>
-                </div>
-            </div>
-            <div class="row">
-                <img class= "sample" src="assets/screen-subhub.JPG" alt="Sample of SubHub">
-            </div>
-
-            <div class="row">
-                <a name="paxvax"></a>
-                <div class="col-4">
-                    <a href="">
-                        <img class= "btnpanel" src="assets/paxvax.png" alt="PaxVax">
-                    </a>
-                </div>
-                <div class="col-8">
-                    <p>Coming Soon: Keep track of the vaccinations you need while for your travels. This is still in early days, but if you would like to see the progress, you can <a href="https://github.com/DukeWilki/paxvaxx">browse the repository here.</a></p>
-                </div>
-            </div>
-            <div class="row">
-                <img class= "sample" src="assets/screen-paxvax.JPG" alt="Sample of PaxVax">
-            </div>
-            <div class="row">
-                <a name="team"></a>
-                <div class="col-4">
-                    <a href="">
-                        <img class= "btnpanel" src="assets/team8.png" alt="team8">
-                    </a>
-                </div>
-                <div class="col-8">
-                    <p>Coming Soon: Team mananagement appliction for local sports teams, featuring financial, regulative and coaching tools. This is still in early days, but if you would like to see the progress, you can <a href="https://github.com/DukeWilki/team8">browse the repository here.</a></p>
-                </div>
-            </div>
-            <div class="row">
-                <img class= "sample" src="assets/screen-team8.JPG" alt="Sample of Team8">
-            </div>
-            <!-- <div class="row">
+        <div class="row">
+          <a name="paxvax"></a>
+          <div class="col-4">
+            <a href="">
+              <img class="btnpanel" src="assets/paxvax.png" alt="PaxVax" />
+            </a>
+          </div>
+          <div class="col-8">
+            <p>
+              Coming Soon: Keep track of the vaccinations you need while for
+              your travels. This is still in early days, but if you would like
+              to see the progress, you can
+              <a href="https://github.com/DukeWilki/paxvaxx"
+                >browse the repository here.</a
+              >
+            </p>
+          </div>
+        </div>
+        <div class="row">
+          <img
+            class="sample"
+            src="assets/screen-paxvax.JPG"
+            alt="Sample of PaxVax"
+          />
+        </div>
+        <div class="row">
+          <a name="team"></a>
+          <div class="col-4">
+            <a href="">
+              <img class="btnpanel" src="assets/team8.png" alt="team8" />
+            </a>
+          </div>
+          <div class="col-8">
+            <p>
+              Coming Soon: Team mananagement appliction for local sports teams,
+              featuring financial, regulative and coaching tools. This is still
+              in early days, but if you would like to see the progress, you can
+              <a href="https://github.com/DukeWilki/team8"
+                >browse the repository here.</a
+              >
+            </p>
+          </div>
+        </div>
+        <div class="row">
+          <img
+            class="sample"
+            src="assets/screen-team8.JPG"
+            alt="Sample of Team8"
+          />
+        </div>
+        <!-- <div class="row">
                 <a name="botany"></a>
                 <div class="col-4">
                     <a href="">
@@ -145,52 +275,81 @@
                     <p>Coming Soon: The app to help you enjoy your bay, with weather forecasts, fishing reports, water conditions, shark sightings and information of local sports teams. This is still in early days, but if you would like to see the progress, you can <a href="https://github.com/DukeWilki/xxx">browse the repository here.</a></p>
                 </div>
             </div> -->
-            <!-- <div class="row">
+        <!-- <div class="row">
                 <img class= "sample" src="assets/screen-cultureshock.JPG" alt="Sample of Cultureshock-Adventure">
             </div> -->
-            <div class="row">
-                <a name="cultureshock"></a>
-                <div class="col-4">
-                    <a href="https://www.cultureshock-adventure.com">
-                        <img class= "btnpanel" src="https://www.cultureshock-adventure.com/wp-content/uploads/2018/08/LOGO-II-MED.png" alt="Cultureshock Adventure">
-                    </a>
-                </div>
-                <div class="col-8">
-                    <p>Travel/culture blog focusing on what makes the world and the people on it so fascinating. Content creation in WordPress content mananagement system.</p>
-                </div>
-            </div>
-            <div class="row">
-                <img class= "sample" src="assets/screen-cultureshock.JPG" alt="Sample of Cultureshock-Adventure">
-            </div>
+        <div class="row">
+          <a name="cultureshock"></a>
+          <div class="col-4">
+            <a href="https://www.cultureshock-adventure.com">
+              <img
+                class="btnpanel"
+                src="https://www.cultureshock-adventure.com/wp-content/uploads/2018/08/LOGO-II-MED.png"
+                alt="Cultureshock Adventure"
+              />
+            </a>
+          </div>
+          <div class="col-8">
+            <p>
+              Travel/culture blog focusing on what makes the world and the
+              people on it so fascinating. Content creation in WordPress content
+              mananagement system.
+            </p>
+          </div>
         </div>
-
-        <div class="container social">
-            <h2 style="text-align: center;">Managed Social Media</h2>
-            <a name="socialmedia"></a>
-                <div class="row">
-                    <div class="col">
-                        <a href="https://www.instagram.com/cultureshockadventure/">
-                            <img class= "socpanel" src="assets/insta_cultureshock.jpg" alt="Cultureshock Adventure Instagram">
-                        </a>
-                    </div>
-                    <div class="col">
-                        <a href="https://www.facebook.com/cultureshockadventure">
-                            <img class= "socpanel" src="assets/fb_cultureshock.jpg" alt="Cultureshock Adventure Facebook">
-                        </a>
-                    </div>
-                </div>
-            <div class="row">
-                <div class="col">
-                    <a href="https://www.instagram.com/maiaocc/">
-                        <img class= "socpanel" src="assets/insta_maia.jpg" alt="Maia Outrigger Canoe Club Instagram">
-                    </a>
-                </div>
-                <div class="col">
-                    <a href="https://www.facebook.com/maiaocc/"><img class= "socpanel" src="assets/fb_maia.jpg" alt="Maia Outrigger Canoe Club Facebook">
-                    </a>
-                </div>
-            </div>
+        <div class="row">
+          <img
+            class="sample"
+            src="assets/screen-cultureshock.JPG"
+            alt="Sample of Cultureshock-Adventure"
+          />
         </div>
+      </div>
 
+      <div class="container social">
+        <h2 style="text-align: center">Managed Social Media</h2>
+        <a name="socialmedia"></a>
+        <div class="row">
+          <div class="col">
+            <a href="https://www.instagram.com/cultureshockadventure/">
+              <img
+                class="socpanel"
+                src="assets/insta_cultureshock.jpg"
+                alt="Cultureshock Adventure Instagram"
+              />
+            </a>
+          </div>
+          <div class="col">
+            <a href="https://www.facebook.com/cultureshockadventure">
+              <img
+                class="socpanel"
+                src="assets/fb_cultureshock.jpg"
+                alt="Cultureshock Adventure Facebook"
+              />
+            </a>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col">
+            <a href="https://www.instagram.com/maiaocc/">
+              <img
+                class="socpanel"
+                src="assets/insta_maia.jpg"
+                alt="Maia Outrigger Canoe Club Instagram"
+              />
+            </a>
+          </div>
+          <div class="col">
+            <a href="https://www.facebook.com/maiaocc/"
+              ><img
+                class="socpanel"
+                src="assets/fb_maia.jpg"
+                alt="Maia Outrigger Canoe Club Facebook"
+              />
+            </a>
+          </div>
+        </div>
+      </div>
     </div>
-</body>
+  </body>
+</html>
