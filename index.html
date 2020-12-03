@@ -2,6 +2,10 @@
 <html>
   <head>
     <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
+    />
     <link rel="stylesheet" href="assets/style.css" />
     <title>Luke Wilkinson</title>
     <link
@@ -19,11 +23,22 @@
       integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
       crossorigin="anonymous"
     ></script>
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cinzel&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <div
       class="card mx-auto"
-      style="max-width: 600px; border: none; position: relative"
+      style="
+        max-width: 600px;
+        min-width: 320px;
+        border: none;
+        position: relative;
+      "
     >
       <img
         class="card-img-top imgbanner"
@@ -39,10 +54,8 @@
       <p style="text-align: center">
         Business Analyst, Content Creator, Developer
       </p>
-      <p style="text-align: center">
-        <a href="assets/LukeWilkinson2020.pdf" download
-          >Download Curriculum Vitae</a
-        >
+      <p style="text-align: center" class="cv">
+        <a href="assets/LukeWilkinson2020.pdf" download>Curriculum Vitae</a>
       </p>
       <p style="text-align: center">
         <a href="#contacts">Contacts</a> ~
@@ -50,6 +63,7 @@
         <a href="#projects">Projects</a> ~
         <a href="#socialmedia">Managed Social Media</a>
       </p>
+      <hr />
 
       <div class="container contacts">
         <a name="contacts"></a>
@@ -63,6 +77,7 @@
           </p>
         </div>
       </div>
+      <hr />
 
       <div class="container contacts">
         <a name="portfolios"></a>
@@ -91,38 +106,94 @@
           </div>
         </div>
       </div>
+      <hr />
 
       <div class="container projects">
         <a name="projects"></a>
         <h2 style="text-align: center">Projects</h2>
         <p style="text-align: center">
+          <a href="#vaccinationtracker">Vaccination Tracker</a> ~
+          <a href="#cultureshock">Cultureshock Adventure</a> ~
           <a href="#eatdaburger">Eat-Da-Burger</a> ~
           <a href="#weatherbuddy">Weather Buddy</a> ~
           <a href="#retro">Retro Gamer Quiz</a> ~ <a href="#subhub">SubHub</a> ~
-          <a href="#paxvax">PaxVax</a> ~ <a href="#team">Team8</a> ~
-          <a href="#cultureshock">Cultureshock Adventure</a>
+          <a href="#paxvax">PaxVax</a> ~ <a href="#team">Team8</a>
         </p>
+        <hr />
+
+        <div class="row">
+          <a name="vaccinationtracker"></a>
+          <a href="https://project02-003.herokuapp.com/">
+            <img
+              class="btnpanel"
+              src="assets/vaccinationtracker - small.jpg"
+              alt="Vaccination Tracker"
+            />
+          </a>
+          <p>
+            Vaccination Tracker is an app dedicated to keeping you well on your
+            travels. It utilises mySQL, Sequelize, Passport and Bycrpt
+            <a href="https://github.com/ManNeu/Vaccination-Tracker">
+              Repository may available for browsing (hosted on another GitHub
+              repo).</a
+            >
+          </p>
+        </div>
+
+        <div class="row">
+          <img
+            class="sample"
+            src="assets/screen-vaccinationtracker.jpg"
+            alt="Sample of Vaccination Tracker"
+          />
+          of Cultureshock-Adventure" />
+        </div>
+        <hr />
+
+        <div class="row">
+          <a name="cultureshock"></a>
+          <a href="https://www.cultureshock-adventure.com">
+            <img
+              class="btnpanel"
+              src="https://www.cultureshock-adventure.com/wp-content/uploads/2018/08/LOGO-II-MED.png"
+              alt="Cultureshock Adventure"
+            />
+          </a>
+          <p>
+            Travel/culture blog focusing on what makes the world and the people
+            on it so fascinating. Content creation in WordPress content
+            mananagement system.
+          </p>
+        </div>
+
+        <div class="row">
+          <img
+            class="sample"
+            src="assets/screen-cultureshock.JPG"
+            alt="Sample of Cultureshock-Adventure"
+          />
+        </div>
+        <hr />
 
         <div class="row">
           <a name="eatdaburger"></a>
-          <div class="col-4">
-            <a href="https://immense-falls-61069.herokuapp.com/">
-              <img
-                class="btnpanel"
-                src="assets/eat-da-burger.JPG"
-                alt="Eat-Da-Burger"
-              />
-            </a>
-          </div>
-          <div class="col-8">
-            <p>
-              Eat-Da-Burger is a casual style bucket-list app designed for eating burgers. Makes use of handlebars and MVCm and mySQL databases connected with ORM.
-              <a href="https://github.com/DukeWilki/eat-da-burger"
-                >Repository available for browsing.</a
-              >
-            </p>
-          </div>
+          <a href="https://immense-falls-61069.herokuapp.com/">
+            <img
+              class="btnpanel"
+              src="assets/eat-da-burger.JPG"
+              alt="Eat-Da-Burger"
+            />
+          </a>
+          <p>
+            Eat-Da-Burger is a casual style bucket-list app designed for eating
+            burgers. Makes use of handlebars and MVCm and mySQL databases
+            connected with ORM.
+            <a href="https://github.com/DukeWilki/eat-da-burger"
+              >Repository available for browsing.</a
+            >
+          </p>
         </div>
+
         <div class="row">
           <img
             class="sample"
@@ -130,143 +201,139 @@
             alt="Sample of Eat-Da-Burger"
           />
         </div>
+        <hr />
 
         <div class="row">
           <a name="weatherbuddy"></a>
-          <div class="col-4">
-            <a href="https://dukewilki.github.io/weather-buddy">
-              <img
-                class="btnpanel"
-                src="assets/weatherbuddy.jpg"
-                alt="Weather Buddy"
-              />
-            </a>
-          </div>
-          <div class="col-8">
-            <p>
-              Engaging weather app designed for travellers and those with
-              wunderlust. Makes use of Open Weather Map API.
-              <a href="https://github.com/DukeWilki/weather-buddy"
-                >Repository available for browsing.</a
-              >
-            </p>
-          </div>
+          <a href="https://dukewilki.github.io/weather-buddy">
+            <img
+              class="btnpanel"
+              src="assets/weatherbuddy.jpg"
+              alt="Weather Buddy"
+            />
+          </a>
+          <p>
+            Engaging weather app designed for travellers and those with
+            wunderlust. Makes use of Open Weather Map API.
+            <a href="https://github.com/DukeWilki/weather-buddy"
+              >Repository available for browsing.</a
+            >
+          </p>
         </div>
         <div class="row">
           <img
-            class="sample"
-            src="assets/screen-weather.JPG"
-            alt="Sample of Weather Buddy"
-          />
+          class="sample"
+          src="assets/screen-weather.JPG"
+          alt="Sample of Weather Buddy"
+        />
         </div>
+        <hr />
 
         <div class="row">
           <a name="retro"></a>
-          <div class="col-4">
-            <a href="https://dukewilki.github.io/retro-gamer-quiz">
-              <img
-                class="btnpanel"
-                src="assets/retro.jpg"
-                alt="Retro Gamer Quiz"
-              />
-            </a>
-          </div>
-          <div class="col-8">
-            <p>
-              Test your geekiness with this fun quiz about the video games of
-              the 1900s. Use of retro designs and javascript.
-              <a href="https://github.com/DukeWilki/retro-gamer-quiz"
-                >Repository available for browsing.</a
-              >
-            </p>
-          </div>
+          <a href="https://dukewilki.github.io/retro-gamer-quiz">
+            <img
+              class="btnpanel"
+              src="assets/retro.jpg"
+              alt="Retro Gamer Quiz"
+            />
+          </a>
+          <p>
+            Test your geekiness with this fun quiz about the video games of the
+            1900s. Use of retro designs and javascript.
+            <a href="https://github.com/DukeWilki/retro-gamer-quiz"
+              >Repository available for browsing.</a
+            >
+          </p>
         </div>
         <div class="row">
           <img
-            class="sample"
-            src="assets/screen-quiz.JPG"
-            alt="Sample of Retro Gamer Quiz"
-          />
+          class="sample"
+          src="assets/screen-quiz.JPG"
+          alt="Sample of Retro Gamer Quiz"
+        />
         </div>
+        <hr />
+
 
         <div class="row">
           <a name="subhub"></a>
-          <div class="col-4">
-            <a href="https://annisapf.github.io/SubHub-Food-Finder/">
-              <img class="btnpanel" src="assets/subhub.jpg" alt="SubHub" />
-            </a>
-          </div>
-          <div class="col-8">
-            <p>
-              Find local restaurants near you! Group project utilising zomato
-              and google APIs.
-              <a href="https://github.com/annisapf/SubHub-Food-Finder"
-                >Repository available for browsing.</a
-              >
-            </p>
-          </div>
+          <a href="https://annisapf.github.io/SubHub-Food-Finder/">
+            <img class="btnpanel" src="assets/subhub.jpg" alt="SubHub" />
+          </a>
+          <p>
+            Find local restaurants near you! Group project utilising zomato and
+            google APIs.
+            <a href="https://github.com/annisapf/SubHub-Food-Finder"
+              >Repository available for browsing.</a
+            >
+          </p>
         </div>
         <div class="row">
           <img
-            class="sample"
-            src="assets/screen-subhub.JPG"
-            alt="Sample of SubHub"
-          />
+          class="sample"
+          src="assets/screen-subhub.JPG"
+          alt="Sample of SubHub"
+        />
         </div>
+        <hr />
+
 
         <div class="row">
-          <a name="paxvax"></a>
-          <div class="col-4">
-            <a href="">
-              <img class="btnpanel" src="assets/paxvax.png" alt="PaxVax" />
-            </a>
-          </div>
-          <div class="col-8">
-            <p>
-              Coming Soon: Keep track of the vaccinations you need while for
-              your travels. This is still in early days, but if you would like
-              to see the progress, you can
-              <a href="https://github.com/DukeWilki/paxvaxx"
-                >browse the repository here.</a
-              >
-            </p>
-          </div>
-        </div>
-        <div class="row">
-          <img
-            class="sample"
-            src="assets/screen-paxvax.JPG"
-            alt="Sample of PaxVax"
-          />
-        </div>
-        <div class="row">
           <a name="team"></a>
-          <div class="col-4">
-            <a href="">
-              <img class="btnpanel" src="assets/team8.png" alt="team8" />
-            </a>
-          </div>
-          <div class="col-8">
-            <p>
-              Coming Soon: Team mananagement appliction for local sports teams,
-              featuring financial, regulative and coaching tools. This is still
-              in early days, but if you would like to see the progress, you can
-              <a href="https://github.com/DukeWilki/team8"
-                >browse the repository here.</a
-              >
-            </p>
-          </div>
+          <a href="https://annisapf.github.io/SubHub-Food-Finder/">
+            <img class="btnpanel" src="assets/team8.png" alt="team8" />
+          </a>
+          <p>
+            Coming Soon: Team mananagement appliction for local sports teams,
+            featuring financial, regulative and coaching tools. This is still in
+            early days, but if you would like to see the progress, you can
+            <a href="https://github.com/DukeWilki/team8"
+              >browse the repository here.</a
+            >
+          </p>
         </div>
         <div class="row">
           <img
-            class="sample"
-            src="assets/screen-team8.JPG"
-            alt="Sample of Team8"
-          />
+          class="sample"
+          src="assets/screen-team8.JPG"
+          alt="Sample of Team8"
+        />
         </div>
-        <!-- <div class="row">
+        <hr />
+
+      </div>
+
+
+
+            <!-- <div class="row">
+        <a name="paxvax"></a>
+        <div class="col">
+          <a href="">
+            <img class="btnpanel" src="assets/paxvax.png" alt="PaxVax" />
+          </a>
+          <p>
+            Coming Soon: Keep track of the vaccinations you need while for your
+            travels. This is still in early days, but if you would like to see
+            the progress, you can
+            <a href="https://github.com/DukeWilki/paxvaxx"
+              >browse the repository here.</a
+            >
+          </p>
+        </div>
+      </div>
+      <div class="row">
+        <img
+          class="sample"
+          src="assets/screen-paxvax.JPG"
+          alt="Sample of PaxVax"
+        />
+      </div>
+      <hr /> -->
+
+      <!-- <div class="row">
                 <a name="botany"></a>
-                <div class="col-4">
+                <div class="col">
                     <a href="">
                         <img class= "btnpanel" src="assets/botany.jpg" alt="Botany Bay">
                     </a>
@@ -275,36 +342,10 @@
                     <p>Coming Soon: The app to help you enjoy your bay, with weather forecasts, fishing reports, water conditions, shark sightings and information of local sports teams. This is still in early days, but if you would like to see the progress, you can <a href="https://github.com/DukeWilki/xxx">browse the repository here.</a></p>
                 </div>
             </div> -->
-        <!-- <div class="row">
+      <!-- <div class="row">
                 <img class= "sample" src="assets/screen-cultureshock.JPG" alt="Sample of Cultureshock-Adventure">
-            </div> -->
-        <div class="row">
-          <a name="cultureshock"></a>
-          <div class="col-4">
-            <a href="https://www.cultureshock-adventure.com">
-              <img
-                class="btnpanel"
-                src="https://www.cultureshock-adventure.com/wp-content/uploads/2018/08/LOGO-II-MED.png"
-                alt="Cultureshock Adventure"
-              />
-            </a>
-          </div>
-          <div class="col-8">
-            <p>
-              Travel/culture blog focusing on what makes the world and the
-              people on it so fascinating. Content creation in WordPress content
-              mananagement system.
-            </p>
-          </div>
-        </div>
-        <div class="row">
-          <img
-            class="sample"
-            src="assets/screen-cultureshock.JPG"
-            alt="Sample of Cultureshock-Adventure"
-          />
-        </div>
-      </div>
+            </div>
+            <hr> -->
 
       <div class="container social">
         <h2 style="text-align: center">Managed Social Media</h2>
@@ -340,8 +381,8 @@
             </a>
           </div>
           <div class="col">
-            <a href="https://www.facebook.com/maiaocc/"
-              ><img
+            <a href="https://www.facebook.com/maiaocc/">
+              <img
                 class="socpanel"
                 src="assets/fb_maia.jpg"
                 alt="Maia Outrigger Canoe Club Facebook"

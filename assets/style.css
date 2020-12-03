@@ -1,7 +1,7 @@
 body {
   font-family: "Playfair Display SC", serif;
   font-size: 18px;
-  background: linear-gradient(90deg, rgb(27, 11, 114) 0%, #ffffff 100%);
+  background: linear-gradient(90deg, #2b1750 0%,  rgb(49, 22, 230) 100%);
 }
 
 .card {
@@ -9,13 +9,18 @@ body {
     margin-bottom: 20px;
     padding-bottom: 20px;
 }
+/* border: none; position: relative" */
 
 #wrapper {
-  width: 580px;
-  margin: auto;
+  width: 600px;
+  border: none; 
+  position: relative;
+
+
+  /* margin: auto;
   padding: 30px;
   box-shadow: 1px 2px 6px rgba(0, 0, 0, 0.2);
-  background: #f2f3f4;
+  background: #f2f3f4; */
 }
 
 .imgbanner {
@@ -25,7 +30,7 @@ body {
 
 .header {
   margin-top: 50px;
-  padding: 0% 27%;
+  /* padding: 0% 27%; */
 }
 
 .imgface {
@@ -39,9 +44,10 @@ body {
   left: calc(50% - 100px);
 }
 
+
 h2 {
-  padding: 30px 32% 0% 32%;
-  margin: 0%;
+  /* padding: 30px 32% 0% 32%;
+  margin: 0%; */
 }
 
 .contacts {
@@ -93,8 +99,9 @@ p {
 }
 
 .sample {
-    max-width: 500px;
-    margin: 10px 40px 50px 40px;
+    max-width: 535px;
+    min-width: 280px;
+    margin: 10px 10px 10px 10px;
 }
 
 .btnbanner {
@@ -110,6 +117,49 @@ p {
 .socpanel {
   border: 1px solid black;
   box-shadow: 2px 4px black;
-  width: 250px;
-  margin: 6px;
+  width: 200px;
+  margin: 2px;
+  margin-bottom: 5px;
+}
+
+
+
+.card {
+  /* max-width: 500px; */
+    margin: auto;
+    width: 50%;
+    border: 3px solid green;
+    padding: 10px;
+  }
+}
+
+.centre {
+  text-align: center;
+}
+
+.cv {
+  font-family: 'Cinzel', serif;
+  font-size: xx-large;
+}
+
+.link {
+  color: black;
+}
+
+.ctc {
+  width: 70%;
+  margin: auto;
+}
+
+
+.logo-col {
+  min-width: 20%;
+}
+
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
 }
