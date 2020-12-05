@@ -126,6 +126,7 @@ p {
 .btnpanel {
   margin-top: 20px;
   margin-bottom: 20px;
+  width: 220px;
 }
 
 html {
