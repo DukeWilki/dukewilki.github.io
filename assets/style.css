@@ -1,36 +1,15 @@
 body {
   font-family: "Playfair Display SC", serif;
   font-size: 18px;
-  background: linear-gradient(90deg, #2b1750 0%,  rgb(49, 22, 230) 100%);
-}
-
-.card {
-    margin-top: 20px;
-    margin-bottom: 20px;
-    padding-bottom: 20px;
-}
-/* border: none; position: relative" */
-
-#wrapper {
-  width: 600px;
-  border: none; 
-  position: relative;
-
-
-  /* margin: auto;
-  padding: 30px;
-  box-shadow: 1px 2px 6px rgba(0, 0, 0, 0.2);
-  background: #f2f3f4; */
+  background: linear-gradient(90deg, #2b1750 0%, rgb(49, 22, 230) 100%);
 }
 
 .imgbanner {
-    height: 200px;
-  }
-
+  height: 200px;
+}
 
 .header {
   margin-top: 50px;
-  /* padding: 0% 27%; */
 }
 
 .imgface {
@@ -42,12 +21,6 @@ body {
   max-height: 200px;
   top: 50px;
   left: calc(50% - 100px);
-}
-
-
-h2 {
-  /* padding: 30px 32% 0% 32%;
-  margin: 0%; */
 }
 
 .contacts {
@@ -67,23 +40,11 @@ p {
 }
 
 .ctc {
-    width: 70%;
-    margin: auto;
-}
-
-.ctcpanel {
-  margin: 70px;
-}
-
-.ctcimage {
-  height: 100px;
-  width: 100px;
-  border: 1px solid black;
-  box-shadow: 2px 4px black;
+  width: 70%;
+  margin: auto;
 }
 
 .folioimage {
-  /* height: 100px; */
   width: 90%;
   border: 1px solid black;
   box-shadow: 2px 4px black;
@@ -93,52 +54,51 @@ p {
 .btnpanel {
   border: 1px solid black;
   box-shadow: 2px 4px black;
-  margin: 8px;
+  margin-top: 200px;
+  margin-bottom: 200px;
   height: 80px;
-  width: 170px;
+  width: 200px;
+  margin: 0 auto;
+  display: block;
 }
 
 .sample {
-    max-width: 535px;
-    min-width: 280px;
-    margin: 10px 10px 10px 10px;
-}
-
-.btnbanner {
-  border: 1px solid black;
-  box-shadow: 2px 4px black;
-  padding: 2% 35% 2% 34%;
-  margin: 6px;
-  height: 70px;
-  width: 170px;
-  background-color: white;
+  max-width: 535px;
+  min-width: 280px;
+  margin: 10px 10px 10px 10px;
 }
 
 .socpanel {
-  border: 1px solid black;
-  box-shadow: 2px 4px black;
-  width: 200px;
-  margin: 2px;
-  margin-bottom: 5px;
+  width: 160px;
+  margin: 0 auto;
+  display: block;
 }
 
-
+.socbtn {
+  border-radius: 50%;
+  width: 100px;
+  margin: 2px;
+  margin-bottom: 5px;
+  margin: 0 auto;
+  display: block;
+}
 
 .card {
   /* max-width: 500px; */
-    margin: auto;
-    width: 50%;
-    border: 3px solid green;
-    padding: 10px;
-  }
+  margin: auto;
+  width: 50%;
+  border: 3px solid green;
+  padding: 10px;
 }
 
 .centre {
   text-align: center;
+  margin: 0 auto;
+  display: block;
 }
 
 .cv {
-  font-family: 'Cinzel', serif;
+  font-family: "Cinzel", serif;
   font-size: xx-large;
 }
 
@@ -151,7 +111,6 @@ p {
   margin: auto;
 }
 
-
 .logo-col {
   min-width: 20%;
 }
@@ -162,4 +121,13 @@ p {
 
 .right {
   float: right;
+}
+
+.btnpanel {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+html {
+  scroll-behavior: smooth;
 }
